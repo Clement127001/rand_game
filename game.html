@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>guess it!!</title>
+</head>
+<body>
+
+    <section id="guess" class="d-flex">
+        <h1 class="header">I have a number in my mind between 1 and 100. Can you guess it?</h1>
+        <form class="value" id="form">
+            <input type="number" max="100" min="0" step="1" placeholder="Enter Your Number"/>
+            <button type="submit" class="btn btn-game" >Submit</button>
+        </form>
+        <p>Lives :<span class="lives">10</span></p>
+        <h2 class="feed">Oops &#128529;! Your guess is too <span class="info">low</span>.You have <span class="count">10</span> remaining.</h2>
+    </section>
+
+    <script src="./app.js"></script>
+    
+</body>
+</html>
